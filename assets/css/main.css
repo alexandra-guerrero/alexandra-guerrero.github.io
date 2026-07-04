@@ -3645,12 +3645,13 @@ input, select, textarea {
 		#banner text{
 			position: absolute;
 			text-transform: none;
-			font-size: 9px;
+			font-size: 0.5em;
 			text-align: right;
 			right: 10px;
 			bottom: 5px;
+			color: rgba(255, 255, 255, 0.706);
 		}
-		
+
 		#banner .more {
 			-moz-transition: -moz-transform 0.75s ease, opacity 0.75s ease;
 			-webkit-transition: -webkit-transform 0.75s ease, opacity 0.75s ease;
