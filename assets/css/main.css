@@ -3642,6 +3642,15 @@ input, select, textarea {
 				color: inherit;
 			}
 
+		#banner text{
+			position: absolute;
+			text-transform: none;
+			font-size: 9px;
+			text-align: right;
+			right: 10px;
+			bottom: 5px;
+		}
+		
 		#banner .more {
 			-moz-transition: -moz-transform 0.75s ease, opacity 0.75s ease;
 			-webkit-transition: -webkit-transform 0.75s ease, opacity 0.75s ease;
@@ -4003,32 +4012,3 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
-
-.textbox-container {
-	position: relative;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: right;
-	background-color: transparent;
-	color: white;
-	border: none;
-	bottom: -12em;
-	right: -24em;
-
-}
-
-.my-textbox {
-	background: none !important;
-	box-shadow: none !important;
-	font-size: 9px;
-	position: relative;
-	width: 90%;
-	max-width: 500px;
-	margin: 20px auto;
-	background-color: transparent;
-	color: white;
-	border: none;
-	outline: none;
-	-webkit-appeareance: none;
-}
