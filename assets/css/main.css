@@ -3857,6 +3857,16 @@ input, select, textarea {
 				color: inherit;
 			}
 
+		#main > header text {
+			position: absolute;
+			text-transform: none;
+			font-size: 0.5em;
+			text-align: right;
+			right: 10px;
+			bottom: 295px;
+			color: rgba(255, 255, 255, 0.706);
+		}
+
 		@media screen and (max-width: 1680px) {
 
 			#main > header {
