@@ -2808,7 +2808,7 @@ input, select, textarea {
 			@media screen and (max-width: 980px) {
 
 				.wrapper > .inner {
-					width: 100%;
+					width: 90%;
 				}
 
 			}
@@ -2858,6 +2858,15 @@ input, select, textarea {
 
 			.wrapper.style1 label {
 				color: #ffffff;
+			}
+
+			.wrapper.style1 credittext {
+				position: absolute;
+				font-size: 0.5em;
+				text-align: right;
+				right: 1em;
+				transform: translateY(-150%);
+				color: rgba(255, 255, 255, 0.706);
 			}
 
 			.wrapper.style1 input[type="text"],
@@ -3186,6 +3195,15 @@ input, select, textarea {
 
 			.wrapper.style5 label {
 				color: #2E3842;
+			}
+
+			.wrapper.style5 credittext {
+				position: absolute;
+				font-size: 0.5em;
+				text-align: right;
+				right: 1em;
+				transform: translateY(-150%);
+				color: rgba(255, 255, 255, 0.706);
 			}
 
 			.wrapper.style5 input[type="text"],
